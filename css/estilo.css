@@ -1,0 +1,97 @@
+:root{
+	--dark-color:#0069c0;
+	--light-color: white;
+}
+body{
+	background: url("../images/background2.png");
+	
+	
+	font-family: 'Raleway', sans-serif;
+}
+
+.container{
+
+}
+
+
+.subtitulo{
+	color: var(--dark-color);
+	/*color: #0069c0 ;*/
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-shadow: 2px 2px 0px white;
+	font-family: 'Merriweather', serif;
+	margin-bottom: 15px;
+}
+
+#divAgregarModelo label{
+	color: var(--dark-color);
+	font-size: 1.3rem;
+}
+
+.card-orden{
+	background-color: white;
+	padding: 10px;
+	border: 1px solid var(--dark-color);
+	border-radius: 10px;
+}
+
+.campo-titulo{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #2f6997;
+}
+
+.campo{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 1.2rem;
+}
+
+
+.header__titulo{
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.card{
+	background-color: white;
+}
+
+.card__title{
+	padding-top: 10px;
+	padding-bottom: 15px;
+	display: flex;
+  	align-items: center;
+  	justify-content: center;
+}
+
+.card__title-titulo{
+	color: #1B4F72;
+}
+
+/*** Footer ***/
+.page-footer{
+	background: var(--light-color);
+   
+}
+
+.footer-copyright{
+	background: var(--dark-color);
+	color: white;
+}
+
+.page-footer a {
+	text-decoration: none;
+	color: white;
+	display: inline-flex;
+}
+.page-footer a p{
+	color: var(--light-color);
+}
+
